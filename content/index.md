@@ -1,6 +1,6 @@
 ---
 title: 墨烟行的数字花园
-description: 记录公开笔记·随想
+description: 记录笔记·随想·脑洞
 ---
 
 
