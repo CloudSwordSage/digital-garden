@@ -74,8 +74,19 @@ jobs:
             )
           fi
 
+          cname_backup_path=""
+          if [ -f "$publish_worktree_path/CNAME" ]; then
+            cname_backup_path="$(mktemp)"
+            cp "$publish_worktree_path/CNAME" "$cname_backup_path"
+          fi
+
           find "$publish_worktree_path" -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
           cp -a public/. "$publish_worktree_path"/
+
+          if [ -n "$cname_backup_path" ]; then
+            cp "$cname_backup_path" "$publish_worktree_path/CNAME"
+            rm -f "$cname_backup_path"
+          fi
 
           cd "$publish_worktree_path"
           git config user.name "github-actions[bot]"
