@@ -6,6 +6,18 @@
       <description>Last 10 notes on 墨烟行的数字花园</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>数据类型</title>
+    <link>https://brain.cloudswordsage.top/CPP/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B</link>
+    <guid>https://brain.cloudswordsage.top/CPP/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B</guid>
+    <description><![CDATA[ 整型 整型是保存整数的数据类型 数据类型关键字字节数有符号取值范围无符号取值范围短整型short2-2^{15} ~ 2^{15}-10 ~ 2^{16}-1整型int4-2^{31} ~ 2^{31}-10 ~ 2^{32}-1长整型long4(Windows/32位Linux)8(64位Linux)4字节:-2^{31} ~ 2^{31}-18字节:-2^{63} ~ 2^{63}-14字节:0 ~ 2^{32}-18字节:0 ~ 2^{64}-1长长整型long long8-2^{63} ~ 2^{63}-10 ~ 2^{64}-1 short a = 10; // 短整数，16位整数 ... ]]></description>
+    <pubDate>Thu, 30 Jul 2026 11:08:40 GMT</pubDate>
+  </item><item>
+    <title>数组</title>
+    <link>https://brain.cloudswordsage.top/CPP/%E6%95%B0%E7%BB%84</link>
+    <guid>https://brain.cloudswordsage.top/CPP/%E6%95%B0%E7%BB%84</guid>
+    <description><![CDATA[ 一维数组 定义 数组中的每个元素都是相同的数据类型 数组中的元素在内存空间中是连续的, 是顺序存储类型 int a[5]; for (int i = 0; i &lt; 5; i++) { a[i] = i + 1; // 数组元素是从0开始索引的 } int b[5] = {6, 7, 8, 9, 10}; int c[] = {11, 12, 13, 14, 15}; std::cout &lt;&lt; &quot;a[0] = &quot; &lt;&lt; a[0] &lt;&lt; std::endl; std::cout &lt;&lt; &quot;b[0] = &quot; ... ]]></description>
+    <pubDate>Thu, 30 Jul 2026 11:08:40 GMT</pubDate>
+  </item><item>
     <title>墨烟行的数字花园</title>
     <link>https://brain.cloudswordsage.top/</link>
     <guid>https://brain.cloudswordsage.top/</guid>
